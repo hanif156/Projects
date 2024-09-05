@@ -11,7 +11,6 @@ var db = mysql.createConnection({
   user: 'Your_username',
   password: 'Your_Password',
   database: 'Your_scheme'
-  // table: 'table_v1'
 })
 db.connect(function(err) {
   if (err) throw err;
