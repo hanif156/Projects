@@ -28,7 +28,7 @@ app.get('/get', (req, res) => {
 
   // Read the data from MySQL table
   console.log("MySQL table data:");
-  let sql_get = 'SELECT * FROM personal_information';
+  let sql_get = 'SELECT * FROM water_level_sensor';
   db.query(sql_get,(err, result) => {
     if (err) throw err;
     console.log(result);
